@@ -96,14 +96,13 @@ checkPassword("monmdp123")
 
 async function main() {
   try {
-    //2. Gérer les succès avec try.
     const res = await checkPassword("monmdp123");
     console.log(res);
   } catch (err) {
-    //3. Gérer les erreurs avec catch.
     console.log(err);
   }
 }
+
 main();
 //4. Utilisez await avec une promesse qui se résout après 3 secondes.
 
